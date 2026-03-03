@@ -38,7 +38,7 @@ body {
 
 /* Título */
 h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     letter-spacing: 4px;
     text-transform: uppercase;
     transition: all 0.4s ease;
@@ -61,4 +61,30 @@ h1:hover {
     100% {
         transform: translateY(0px);
     }
+}
+
+/* Caja de los iconos */
+#iconContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* Iconos */
+.icon {
+    position: absolute;
+    width: 20px; 
+    pointer-events: auto;
+    cursor: pointer;
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Animación flotar iconos */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0px); }
 }
