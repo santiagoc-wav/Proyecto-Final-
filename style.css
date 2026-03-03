@@ -1,0 +1,64 @@
+/* Reset para que nome salgan bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Hero principal */
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url("images/Backround.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Capa oscura */
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.695);
+}
+
+/* Contenido centrado */
+.content {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Título */
+h1 {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+/* hover */
+h1:hover {
+    animation: float 2s ease-in-out infinite;
+}
+
+/* flotación pa donde */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
