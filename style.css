@@ -134,3 +134,12 @@ animation-name:moverY;
 100%{transform:translateY(120vh)}
 
 }
+
+/* Icono activo */
+.icon.activo img {
+filter:brightness(2);
+transform:scale(1.1,1.1);
+transition:all 1s ease;
+}
+
+/* animacion aparecer gif*/

@@ -154,6 +154,7 @@ icon.addEventListener("click",()=>{
 if(icon.dataset.activo === "true"){
 
 icon.dataset.activo = "false";
+icon.classList.remove("activo")
 
 /* borrar gif */
 
@@ -182,7 +183,7 @@ return;
 /* ABRIR */
 
 icon.dataset.activo = "true";
-
+icon.classList.add("activo");
 
 /* CREAR GIF */
 
