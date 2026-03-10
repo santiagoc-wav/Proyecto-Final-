@@ -49,14 +49,14 @@ const audios = [
 /* TEXTOS */
 
 const textos = [
+"ya he estado aquí antes",
 "seguro recordaré esto",
-"eco urbano",
-"ruido de ciudad",
-"historia invisible",
-"cuerpo y territorio",
-"archivo vivo",
-"ritmo cotidiano",
-"paisaje sonoro"
+"¿se puede volver?",
+"no estoy ni cerca",
+"más lejos de lo que quiero",
+"más cerca de lo que temo",
+"hacia donde se pueda",
+"hacia donde se quiera"
 ];
 
 /* POSICIONES FIJAS */
