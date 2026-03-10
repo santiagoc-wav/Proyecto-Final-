@@ -117,7 +117,6 @@ titulo.addEventListener("click",()=>{
 
 if(!isPlaying){
 
-audioPad.loop = true;
 audioPad.play();
 
 isPlaying = true;
